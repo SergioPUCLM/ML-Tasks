@@ -30,5 +30,5 @@ se pueda reentrenar.
 Model Agnostic:
 Tiene un monton de tecnologias integradas
 
-COMANDO: mlflow server --host 127.0.0.1 --port 8080
+COMANDO: mlflow server --host 127.0.0.1 --port 8080 (debe funcionar en una terminal aparte)
 PARA VER: ir a http://127.0.0.1:8080
