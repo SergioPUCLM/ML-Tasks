@@ -1,0 +1,34 @@
+Es un MODEL STORE, suele haber 3 STORES:
+
+- FEATURE: sitio donde se almacenan las caracteristicas de los datos. Normalmente los dataset tienen unas features y 
+un targtet. Esto guarda las features. Aqui se pueden comparar las distribuciones, las coorelacciones, puedo generar 
+variables nuevas,...
+parauede seleccionar las features al MODEL STORE
+
+- MODEL: guarda toda la información del modelo, y disponilibiza estos resultados en una bd. Si por ejemplo quiero 
+el modelo iris3 -> te lo carga en memoria y lo puedes utilizar. Guarda modelos entrenados
+
+- EVALUATION: Guarda todas las metricas de evaluación, es decir como de bien funciona el modelo. Lo tenemos ahi 
+porque principalmente para ver cuanto performance pierde mi modelo para establecer cierto umbral para ver si 
+hay que reetrenarlo.
+
+Los datos reales suelen cambiar con el tiempo, causando datadrift. Esto puede causar que la distribucion de los datos
+cambie, causando overfitting y la decadencia de performance.
+
+Se basa en 3 conceptos basicos:
+- Modelo: es un modelo de machine learning concreto
+- Experimento: forma de juntar varias ejecuciones, es decir, varias runs
+- Run (ejecución): una ejecución de un modelo para unos datos, entrada y salida concretos
+
+Por ejemplo para modelos M1-3, tenemos un experimento IRIS, con:
+- Modelo M1 con datos L
+- Modelo M2 con datos J
+
+Dentro de los modelos, podemos tener diferentes versiones del mismo. Esto se hace para que si pierde performance
+se pueda reentrenar.
+
+Model Agnostic:
+Tiene un monton de tecnologias integradas
+
+COMANDO: mlflow server --host 127.0.0.1 --port 8080
+PARA VER: ir a http://127.0.0.1:8080
