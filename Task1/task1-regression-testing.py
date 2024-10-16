@@ -7,7 +7,7 @@ import seaborn as sns
 import time
 import matplotlib.pyplot as plt
 from sklearn.datasets import fetch_california_housing
-from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, classification_report, mean_absolute_error
 from sklearn.tree import DecisionTreeRegressor
@@ -17,6 +17,7 @@ from sklearn.preprocessing import KBinsDiscretizer
 
 from ucimlrepo import fetch_ucirepo
 
+from pygam import LinearGAM, s, l, f
 
 def main():
 
@@ -170,7 +171,7 @@ def main():
 
     # DECISION TREE - REGRESSION
     print("Running Decision Tree Regression...")
-    model = DecisionTreeRegressor(criterion='squared_error', max_depth=4, random_state=0)
+    model = DecisionTreeRegressor(criterion='squared_error', max_depth=2, random_state=0)
     model.fit(x_train, y_train)
     y_pred = model.predict(x_test)
     mae = mean_absolute_error(y_test, y_pred)
@@ -179,6 +180,30 @@ def main():
     print(f"Mean Absolute Error: {mae}")
     print(f"Mean Squared Error: {mse}")
     print(f"R²: {r2}")
+
+    # GAM - REGRESSION - s
+    print("Running GAM Regression s...")
+    model = LinearGAM( s(0) + s(1) + s(2) + s(3) + s(4) + s(5) + s(6) + s(7) + s(8) ).fit(x_train, y_train)
+    y_pred = model.predict(x_test)
+    mae = mean_absolute_error(y_test, y_pred)
+    mse = mean_squared_error(y_test, y_pred)
+    r2 = r2_score(y_test, y_pred)
+    print(f"Mean Absolute Error: {mae}")
+    print(f"Mean Squared Error: {mse}")
+    print(f"R²: {r2}")
+
+    # GAM - REGRESSION - l
+    print("Running GAM Regression l...")
+    model = LinearGAM( l(0) + l(1) + l(2) + l(3) + l(4) + l(5) + l(6) + l(7) + l(8) ).fit(x_train, y_train)
+    y_pred = model.predict(x_test)
+    mae = mean_absolute_error(y_test, y_pred)
+    mse = mean_squared_error(y_test, y_pred)
+    r2 = r2_score(y_test, y_pred)
+    print(f"Mean Absolute Error: {mae}")
+    print(f"Mean Squared Error: {mse}")
+    print(f"R²: {r2}")
+
+
 
 
 if __name__ == "__main__":
