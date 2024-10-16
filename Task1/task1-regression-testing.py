@@ -30,8 +30,45 @@ def main():
     x = wine_quality.data.features
     y = wine_quality.data.targets
 
-     # Preprocessing
+    # Preprocessing
+    ## Check for missing values
+    print("Checking for missing values...")
+    print(x.isnull().sum())
+
+    ## Check correlation between features
+    print("Checking correlation between features...")
+    corr = x.corr()
+    sns.heatmap(corr, annot=True, square=True)
+    plt.savefig('plots/correlation.png')
+    plt.close()
+    """
+    How to interpret the correlation matrix:
+    - A value of 1 means that the two variables are perfectly correlated.
+    - A value of 0 means that the two variables are not correlated.
+    - A value of -1 means that the two variables are perfectly negatively correlated.
+
+    if the correlation between two features is high, it means that they are redundant and one of them can be removed.
+    
+    In this case, the features with the highest correlation are:
+    - total sulfur dioxide - free sulfur dioxide (0.72)
+    - total sulfur dioxide - residual sugar (0.5)
+    - total sulfur dioxide - volatile acidity (0.41)
+    - density - alcohol (-0.69)
+    - density - residual sugar (0.55)
+    - density - fixed_acidity (-0.46)
+
+    The rest of the features have a correlation lower than 0.4, so they are not redundant.
+    """
     ## Remove the useless features
+    """
+    Remove the features that are not useful to the model. In this case, the features that have a high correlation with other features.
+    The features that are not useful are:
+    - total sulfur dioxide
+    - density
+    """
+    x = x.drop(columns=['total_sulfur_dioxide', 'density'])
+    
+    ## Select the useful features
     """
     To select the features that are useful to the model, you need to know the features that make the model more accurate. 
     In this case, the feutures that tell us the how good is the wine. These are:
@@ -46,14 +83,13 @@ def main():
     print ("Selecting the useful features...")
     print(x.head())
     print(x.columns.tolist())
-    x = x[['volatile_acidity', 'density', 'pH', 'alcohol']]
-    print(x.head())
-    print(x.columns.tolist())
+    # x = x[['volatile_acidity', 'density', 'pH', 'alcohol']]
+    # print(x.head())
+    # print(x.columns.tolist())
     
     # Train-test split
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
-   
 
 
     # REGRESSION
@@ -94,6 +130,8 @@ def main():
     R² values are generally low, indicating that individual features do not explain a large proportion of the variability in wine quality. 
     This suggests that wine quality is a complex phenomenon influenced by multiple factors and possibly by interactions between them.
     """
+
+
 
     ## MULTIPLE LINEAR REGRESSION
     model = LinearRegression()
