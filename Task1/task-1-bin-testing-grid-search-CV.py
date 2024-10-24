@@ -228,7 +228,7 @@ def mlflow_run(accuracy, report, x_train, model, best_params, model_name, artifa
 def discretize_data(bins, x, y):
     # Discretize the data
     print("Discretizing data...")
-    discretizer = KBinsDiscretizer(n_bins=3, encode='ordinal', strategy='quantile')
+    discretizer = KBinsDiscretizer(n_bins=bins, encode='ordinal', strategy='quantile')
     X_disc = discretizer.fit_transform(x)
     y_disc = discretizer.fit_transform(y)
     x_train, x_test, y_train, y_test = train_test_split(X_disc, y_disc, test_size=0.2, random_state=42)

@@ -1,0 +1,1674 @@
+[
+    {
+        "Complement Naive Bayes Classifier Bins 15": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 15": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 15": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 15": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 15": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 15": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 15": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 14": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 14": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 14": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 14": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 14": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 14": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 14": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 13": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 13": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 13": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 13": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 13": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 13": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 13": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 12": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 12": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 12": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 12": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 12": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 12": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 12": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 11": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 11": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 11": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 11": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 11": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 11": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 11": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 10": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 10": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 10": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 10": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 10": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 10": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 10": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 9": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 9": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 9": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 9": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 9": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 9": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 9": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 8": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 8": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 8": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 8": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 8": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 8": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 8": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 7": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 7": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 7": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 7": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 7": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 7": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 7": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 6": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 6": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 6": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 6": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 6": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 6": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 6": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    },
+    {
+        "Complement Naive Bayes Classifier Bins 5": {
+            "accuracy": 0.66,
+            "f1_score": 0.6576153339551628,
+            "precision": 0.6772018066918917,
+            "recall": 0.66,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.07084615384615389",
+                "_permutation_importance_pH": "0.0015384615384615886",
+                "_permutation_importance_total_sulfur_dioxide": "-0.0012307692307691799",
+                "_permutation_importance_citric_acid": "0.0006923076923077253",
+                "_permutation_importance_sulphates": "0.0002307692307692788",
+                "_permutation_importance_fixed_acidity": "0.001153846153846194",
+                "_permutation_importance_volatile_acidity": "0.01638461538461542",
+                "_permutation_importance_free_sulfur_dioxide": "0.007076923076923103",
+                "_permutation_importance_density": "-0.0005384615384614877",
+                "_permutation_importance_chlorides": "-0.0008461538461538298"
+            }
+        }
+    },
+    {
+        "Multinomial Naive Bayes Classifier Bins 5": {
+            "accuracy": 0.6915384615384615,
+            "f1_score": 0.6777636283335765,
+            "precision": 0.6645521819429586,
+            "recall": 0.6915384615384615,
+            "parameters": {
+                "_alpha": "0.1",
+                "_permutation_importance_residual_sugar": "0.0",
+                "_permutation_importance_alcohol": "0.04361538461538463",
+                "_permutation_importance_pH": "0.003923076923076918",
+                "_permutation_importance_total_sulfur_dioxide": "0.002230769230769247",
+                "_permutation_importance_citric_acid": "0.00838461538461538",
+                "_permutation_importance_sulphates": "0.006923076923076932",
+                "_permutation_importance_fixed_acidity": "0.0013846153846153952",
+                "_permutation_importance_volatile_acidity": "0.011384615384615392",
+                "_permutation_importance_free_sulfur_dioxide": "-0.0008461538461538298",
+                "_permutation_importance_density": "-0.006615384615384623",
+                "_permutation_importance_chlorides": "0.0023076923076923105"
+            }
+        }
+    },
+    {
+        "Gaussian Naive Bayes Classifier Bins 5": {
+            "accuracy": 0.6815384615384615,
+            "f1_score": 0.6750041075185198,
+            "precision": 0.6755251708899598,
+            "recall": 0.6815384615384615,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "-2.2204460492503132e-17",
+                "_permutation_importance_alcohol": "0.04607692307692307",
+                "_permutation_importance_pH": "-0.00046153846153844657",
+                "_permutation_importance_total_sulfur_dioxide": "0.005538461538461525",
+                "_permutation_importance_citric_acid": "0.0050000000000000044",
+                "_permutation_importance_sulphates": "0.001307692307692321",
+                "_permutation_importance_fixed_acidity": "0.004923076923076919",
+                "_permutation_importance_volatile_acidity": "0.018000000000000006",
+                "_permutation_importance_free_sulfur_dioxide": "0.003923076923076929",
+                "_permutation_importance_density": "-0.005846153846153857",
+                "_permutation_importance_chlorides": "0.005692307692307686",
+                "_var_smoothing": "1e-09"
+            }
+        }
+    },
+    {
+        "K-Nearest Neighbors Classifier Bins 5": {
+            "accuracy": 0.7561538461538462,
+            "f1_score": 0.7516036190107388,
+            "precision": 0.7485459935642346,
+            "recall": 0.7561538461538462,
+            "parameters": {
+                "_permutation_importance_residual_sugar": "0.02776923076923079",
+                "_permutation_importance_alcohol": "0.09876923076923079",
+                "_permutation_importance_pH": "0.03976923076923079",
+                "_permutation_importance_total_sulfur_dioxide": "0.05515384615384618",
+                "_permutation_importance_citric_acid": "0.051692307692307704",
+                "_permutation_importance_sulphates": "0.058923076923076946",
+                "_permutation_importance_fixed_acidity": "0.03730769230769233",
+                "_permutation_importance_volatile_acidity": "0.04815384615384617",
+                "_permutation_importance_free_sulfur_dioxide": "0.03900000000000002",
+                "_permutation_importance_density": "0.04038461538461541",
+                "_permutation_importance_chlorides": "0.028000000000000014",
+                "_weights": "distance",
+                "_n_neighbors": "9"
+            }
+        }
+    },
+    {
+        "Support Vector Machine Classifier Bins 5": {
+            "accuracy": 0.703076923076923,
+            "f1_score": 0.686690863203856,
+            "precision": 0.6717957143258348,
+            "recall": 0.703076923076923,
+            "parameters": {
+                "_feature_coefficient_citric_acid": "[ 0.00651119  0.63911274 -0.07370934 -0.23082764  0.09769075 -0.15908435\n  0.26256638  0.03096103 -0.05169441 -0.20823764 -0.94184088]",
+                "_tol": "0.0001",
+                "_C": "0.1",
+                "_feature_coefficient_volatile_acidity": "[-2.22293921e-06 -9.31987552e-06  6.96317422e-08 -9.87029465e-06\n -1.99633788e-06  1.67007996e-06  3.10197990e-06  8.97399760e-06\n -5.00649193e-06  8.63327105e-06  4.77434049e-06]",
+                "_feature_coefficient_fixed_acidity": "[-5.46217518e-06  3.44852505e-06  8.07209926e-07 -4.89539798e-06\n -1.35455870e-06 -5.70181404e-06 -1.35441767e-06  2.09118308e-05\n  5.47721140e-06  2.54650342e-07  1.72990531e-05]"
+            }
+        }
+    },
+    {
+        "Gradient Boosting Classifier Bins 5": {
+            "accuracy": 0.7484615384615385,
+            "f1_score": 0.7441104456986358,
+            "precision": 0.7418576041309837,
+            "recall": 0.7484615384615385,
+            "parameters": {
+                "_feature_importance_chlorides": "0.06279748551143932",
+                "_feature_importance_fixed_acidity": "0.07741251242229359",
+                "_feature_importance_residual_sugar": "0.056921502399020704",
+                "_feature_importance_alcohol": "0.24150526983465037",
+                "_feature_importance_pH": "0.07376555818249267",
+                "_feature_importance_citric_acid": "0.07583188388828965",
+                "_feature_importance_volatile_acidity": "0.13505440254020218",
+                "_n_estimators": "200",
+                "_min_samples_split": "4",
+                "_feature_importance_sulphates": "0.06794837435199849",
+                "_feature_importance_free_sulfur_dioxide": "0.07268633372209043",
+                "_feature_importance_density": "0.06049727619846099",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.07557940094906167"
+            }
+        }
+    },
+    {
+        "Random Forest Classifier Bins 5": {
+            "accuracy": 0.7323076923076923,
+            "f1_score": 0.7146686153484791,
+            "precision": 0.6993461857291644,
+            "recall": 0.7323076923076923,
+            "parameters": {
+                "_feature_importance_chlorides": "0.0681004343298056",
+                "_feature_importance_fixed_acidity": "0.036441015759175306",
+                "_feature_importance_residual_sugar": "0.03740607475385934",
+                "_feature_importance_alcohol": "0.3165988600156296",
+                "_feature_importance_pH": "0.030082584304905683",
+                "_feature_importance_citric_acid": "0.06214820718403125",
+                "_feature_importance_volatile_acidity": "0.16179126094668536",
+                "_n_estimators": "50",
+                "_min_samples_split": "3",
+                "_feature_importance_sulphates": "0.054308173052277135",
+                "_feature_importance_free_sulfur_dioxide": "0.04364071492547625",
+                "_feature_importance_density": "0.13802144912814177",
+                "_max_depth": "7",
+                "_feature_importance_total_sulfur_dioxide": "0.05146122560001269"
+            }
+        }
+    }
+]
